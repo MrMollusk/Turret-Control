@@ -10,7 +10,7 @@ This program is designed to control two stepper motors using a Raspberry Pi and 
         - pygame for joystick input.
 
 Install the required libraries with the following command:
-
+bash
 pip install RPi.GPIO pygame
 
 Features
