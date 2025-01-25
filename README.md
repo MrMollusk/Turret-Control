@@ -3,7 +3,7 @@
 This program is designed to control two stepper motors using a Raspberry Pi and a joystick. The motors' directions and speeds are adjusted based on the joystick's axis input. The code uses the RPi.GPIO library to interface with the Raspberry Pi's GPIO pins, and pygame to read the joystick input.
 Prerequisites
 
--**Platform:** Raspberry Pi (tested on Raspberry Pi 3/4).
+- **Platform:** Raspberry Pi (tested on Raspberry Pi 3/4).
     -**Libraries:**
         -RPi.GPIO for controlling the GPIO pins.
         -pygame for joystick input.
