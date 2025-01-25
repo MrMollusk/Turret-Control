@@ -10,15 +10,15 @@ This program is designed to control two stepper motors using a Raspberry Pi and 
         - pygame for joystick input.
 
 Install the required libraries with the following command:
+
 bash
 pip install RPi.GPIO pygame
 
-Features
-
-    Joystick Control: Adjusts motor direction and speed based on joystick input.
-    PWM Motor Control: Uses pulse width modulation to control stepper motors.
-    GPIO Interface: Directly controls stepper motors through Raspberry Pi GPIO pins.
-    Real-time Monitoring: Prints joystick axis values and motor speeds for debugging.
+# Features
+- **Joystick Control:** Adjusts motor direction and speed based on joystick input.
+- **PWM Motor Control:** Uses pulse width modulation to control stepper motors.
+- **GPIO Interface:** Directly controls stepper motors through Raspberry Pi GPIO pins.
+- **Real-time Monitoring:** Prints joystick axis values and motor speeds for debugging.
 
 Hardware Setup
 
