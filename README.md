@@ -23,10 +23,10 @@ pip install RPi.GPIO pygame
 
 # Hardware Setup
 - **Raspberry Pi GPIO Pins:**
-        - Pin 23: Direction pin for the base motor.
-        - Pin 22: Pulse pin for the base motor.
-        - Pin 27: Direction pin for the arm motor.
-        - Pin 17: Pulse pin for the arm motor.
+    - Pin 23: Direction pin for the base motor.
+    - Pin 22: Pulse pin for the base motor.
+    - Pin 27: Direction pin for the arm motor.
+    - Pin 17: Pulse pin for the arm motor.
 
 # Usage
 
