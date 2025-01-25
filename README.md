@@ -4,7 +4,8 @@ This program is designed to control two stepper motors using a Raspberry Pi and 
 
 # Prerequisites
 - **Platform:** Raspberry Pi (tested on Raspberry Pi 3/4).
--**Libraries:**
+
+- -**Libraries:**
         -RPi.GPIO for controlling the GPIO pins.
         -pygame for joystick input.
 
