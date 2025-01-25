@@ -30,7 +30,7 @@ pip install RPi.GPIO pygame
 
 # Usage
 
-1. - **Joystick Movement:**
+1. **Joystick Movement:**
         - Moving the joystick left/right will control the base motor (connected to pins 23 and 22).
         - Moving the joystick up/down will control the arm motor (connected to pins 27 and 17).
 2. The speed of the motors will be scaled based on the joystick axis input, ranging from -100 to 100 steps. A positive value indicates forward movement, while a negative value indicates reverse movement.
