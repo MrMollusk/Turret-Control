@@ -1,15 +1,15 @@
 # Raspberry Pi Motor Control Using Xbox One Controller
 
-This program is designed to control two stepper motors using a Raspberry Pi and a joystick. The motors' directions and speeds are adjusted based on the joystick's axis input. The code uses the RPi.GPIO library to interface with the Raspberry Pi's GPIO pins, and pygame to read the joystick input.
+This program is designed to control two stepper motors using a Raspberry Pi and a joystick. The  directions and speeds of the motors are adjusted based on the joystick's axis input. The code uses the RPi.GPIO library to interface with the Raspberry Pi's GPIO pins, and pygame to read the joystick input.
 
 # Prerequisites
-- **Platform:** Raspberry Pi (tested on Raspberry Pi 3/4).
+- **Platform:** Raspberry Pi (tested on Raspberry Pi 4).
 
 - **Libraries:**
   - RPi.GPIO for controlling the GPIO pins.
   - pygame for joystick input.
 
-Install the required libraries with the following command:
+Install the RPi.GPIO library with the command:
 
 ```
 pip install RPi.GPIO pygame
@@ -29,7 +29,6 @@ pip install RPi.GPIO pygame
     - Pin 17: Pulse pin for the arm motor.
 
 # Usage
-
 1. **Joystick Movement:**  
     - Moving the joystick left/right will control the base motor (connected to pins 23 and 22).  
     - Moving the joystick up/down will control the arm motor (connected to pins 27 and 17).  
@@ -37,12 +36,11 @@ pip install RPi.GPIO pygame
 3. The program outputs the joystick axis values and motor speed to the terminal for debugging purposes.
 
 # Running the program
-
-Run the program using the following command:
+In the Pi's terminal, run the program using the following command:
 ```
 python main.py
 ```
-The motors will start responding to the joystick input as soon as the program is executed. You can stop the program by pressing Ctrl+C.
+The motors will start responding to the joystick input as soon as the program is executed. Pressing Ctrl + C will terminate the program.
 
 # Code Explanation
 - **GPIO Pins:** The ```DIR_BASE```, ```PUL_BASE```, ```DIR_ARM```, and ```PUL_ARM``` constants define the GPIO pins connected to the direction and pulse pins of the motors.
@@ -57,6 +55,7 @@ The motors will start responding to the joystick input as soon as the program is
 - If the Raspberry Pi processor overheats due to high processing demands, the program includes a sleep(0.01) delay to prevent overloading the CPU.
 
 # Troubleshooting
+- If your Pi doesn't actually boot, try to boot it without any peripherals connected. Took me a few hours to figure this part out.
 - Ensure the motors are correctly wired to the Raspberry Pi GPIO pins.
 - Make sure the joystick is connected and properly initialized before starting the program.
 
