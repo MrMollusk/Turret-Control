@@ -11,7 +11,7 @@ This program is designed to control two stepper motors using a Raspberry Pi and 
 
 Install the required libraries with the following command:
 
-```bash
+```
 pip install RPi.GPIO pygame
 ```
 
