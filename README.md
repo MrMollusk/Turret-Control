@@ -55,7 +55,7 @@ The motors will start responding to the joystick input as soon as the program is
 - If the Raspberry Pi processor overheats due to high processing demands, the program includes a sleep(0.01) delay to prevent overloading the CPU.
 
 # Troubleshooting
-- If your Pi doesn't actually boot, try to boot it without any peripherals connected. Took me a few hours to figure this part out.
+- If your Pi doesn't actually boot, try to boot it without any peripherals connected. This cost me a few hours.
 - Ensure the motors are correctly wired to the Raspberry Pi GPIO pins.
 - Make sure the joystick is connected and properly initialized before starting the program.
 
