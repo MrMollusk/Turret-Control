@@ -18,7 +18,7 @@ GPIO.setup(PUL_BASE, GPIO.OUT)
 GPIO.setup(DIR_ARM, GPIO.OUT)
 GPIO.setup(PUL_ARM, GPIO.OUT)
 
-#Python having these libraries seems like too much abstraction tbh
+#Python having these libraries seems like too much abstraction tbh.
 pygame.init()
 
 controller = pygame.joystick.Joystick(0)
